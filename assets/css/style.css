@@ -55,6 +55,10 @@ section {
     width: 830px;
 }
 
+form {
+    margin: 10%;
+}
+
 img {
     float: left;
     margin-top: 10px;
