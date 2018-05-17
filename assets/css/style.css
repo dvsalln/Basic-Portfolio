@@ -4,6 +4,7 @@ body,html {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    width: 100%;
 }
 
 .container {
@@ -17,7 +18,7 @@ body,html {
 }
 
 .background {
-
+    overflow: auto;
     height: 100%;
     width: 100%;
     background: url("../images/swirl.jpg");
@@ -25,21 +26,41 @@ body,html {
 
 header {
 
+    border-radius: 70px 70px 70px 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 90px;
-    margin-top: 5px;
+    margin-top: 10px;
     float: left;
     height: 80px;
     width: 210px;
     color: #313131;
-    background: #ffa601;
+    background: linear-gradient(yellow, orange);
     border: 5px solid #d88c00;
-    
+    box-shadow: 10x 10px 10px #313133;
+}
+
+.myButton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 30px;
+    font-weight: bold;
+    background: linear-gradient(yellow, orange);
+    border-radius: 70px 70px 70px 70px;
+    padding: 10px 12px;
+    border: 5px solid #d88c00;
+    display: inline-block;
+    color: #777;
+    float: static;
+
+}
+
+.myButton:hover {
+    background: #b97900;
+    border-radius: 70px 70px 70px 70px;
 }
 
 nav {
-
-    background: #ffb005;
+    box-shadow: 10x 10px 10px #3c2f00;
+    background: linear-gradient(orange, yellow);
     color: #fff;
     height: 80px;
     width: 100%;
@@ -47,6 +68,7 @@ nav {
     margin-right: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
+    border: 5px solid #d88c00;
 }
 
 ul {
@@ -54,7 +76,7 @@ ul {
     text-align: right;
     list-style-type: none;
     margin: 0;
-    padding: 30px;
+    padding: 10px;
     font-size: 18px;
     word-spacing: 10px;
     color: #313131;
@@ -62,22 +84,18 @@ ul {
 }
 
 li {
-
-    padding: 10px 12px;
-    border-right: 1px solid #d88c00;
     display: inline-block;
-    color: #777;
-    text-align: right;
+    
 }
 
 li:last-child {
 
-    border-right: none;
 
 }
 
 section {
 
+    border-radius: 10px 50px 10px 10px;
     overflow: auto;
     border: 5px solid #d88c00;
     margin-right: 60px;
@@ -185,7 +203,7 @@ footer {
     border: 5px solid #d88c00;
     float: left;
     text-align: center;
-    background: #ffb005;
+    background: linear-gradient(yellow, orange);
     color: #777;
     height: 60px;
     width: 100%;
