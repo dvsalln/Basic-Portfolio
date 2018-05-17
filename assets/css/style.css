@@ -90,14 +90,13 @@ form {
 
 img {
 
-    float: left;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 25px;
     margin-right: 0px;
-    height: 175px;
-    width: 175px;
-    float: center;
+    height: 200px;
+    width: 200px;
+    float: left;
 }
 
 p {
