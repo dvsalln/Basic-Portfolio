@@ -1,26 +1,40 @@
 body {
-    background-image: ur
+    color: #fff;
+    margin: 0;
 }
 
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
 
+.background{
+    height: 100%;
+    width: 100%;
+    background: url("../images/swirl.jpg");
+}
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 100px;
-    margin-top: 1px;
+    margin-left: 90px;
+    margin-top: 5px;
     float: left;
-    height: 75px;
+    height: 80px;
     width: 210px;
-    color: #fff;
-    background: #4aaaa5;
+    color: #666;
+    background: #e99801;
+    border: 5px solid #d88c00;
     
 }
 
 nav {
-    background: #ebebeb;
-    color: #777;
-    height: 75px;
-    width: 1250px;
+    background: #ffb005;
+    color: #fff;
+    height: 80px;
+    width: 100%;
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -28,33 +42,68 @@ nav {
 }
 
 section {
+    border: 5px solid #d88c00;
     margin-right: 60px;
-    margin-top: 30px;
-    margin-left: 170px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 100px;
     text-align: left;
     float: left;
-    background: #ebebeb;
-    color: #4aaaa5;
-    height: 400px;
+    background: #ffb00570;
+    color: #666;
+    height: 475px;
     width: 830px;
 }
 
 img {
-    margin: 2%;
-    height: 120px;
-    width: 150px;
     float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 0px;
+    height: 175px;
+    width: 175px;
+    float: center;
 }
 
 p {
-    margin: 5%;
-    text-align: left;
-    color: #777;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 600px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: #161616;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
+    margin-top: 25px;
     margin-left: 7px;
-    font-size: 24px;
+    margin-right: 7px;
+    font-size: 22px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    margin-left: 20px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    border: 5px solid #d88c00;
+    float: left;
+    text-align: center;
+    background: #ffb005;
+    color: #777;
+    height: 60px;
+    width: 100%;
 }
