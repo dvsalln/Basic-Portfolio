@@ -1,0 +1,33 @@
+body {
+    width: 960px;
+}
+
+header {
+    margin-top: 0;
+    margin-left: 60px;
+    margin-right: 40px;
+    float: left;
+    height: 40px;
+    width: 100px;
+    color: #ebebeb;
+    background: #4aaaa5;
+}
+
+nav {
+    float: right;
+    height: 40px;
+    width: 960px;
+}
+
+section {
+    background: #ebebeb;
+    color: #777777;
+    height: 240px;
+    width: 800px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    float: left;
+}
