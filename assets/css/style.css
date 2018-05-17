@@ -21,7 +21,7 @@ body,html {
     overflow: auto;
     height: 100%;
     width: 100%;
-    background: url("../images/swirl.jpg");
+    background: url("../images/dark.jpg");
 }
 
 header {
@@ -49,17 +49,19 @@ header {
     border: 5px solid #d88c00;
     display: inline-block;
     color: #777;
-    float: static;
+    color: #161616;
+    transition: left linear 0.2s, width linear 0.2s, height linear 0.2s, transform linear 0.2s;
+
 
 }
 
 .myButton:hover {
-    background: #b97900;
+    background: #ffbc02;
     border-radius: 70px 70px 70px 70px;
 }
 
 nav {
-    box-shadow: 10x 10px 10px #3c2f00;
+    box-shadow: 10x 10px 10px#161616;
     background: linear-gradient(orange, yellow);
     color: #fff;
     height: 80px;
@@ -104,9 +106,9 @@ section {
     margin-bottom: 100px;
     text-align: left;
     float: left;
-    background: #ffb00570;
+    background: linear-gradient(yellow, orange);
     color: #666;
-    height: 525px;
+    height: 600px;
     width: 830px;
 
 }
@@ -115,29 +117,21 @@ form {
 
     font-size: 18px;
     color: #161616;
-    height: 80%;
+    height: 250px;
     width: 500px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left: 50px;
-    margin-right: 75px;
+    margin: auto;
 
 }
 
-.port-img {
-
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: 25px;
-    margin-right: 0px;
-    height: 100px;
-    width: 100px;
-    float: left;
+textarea { 
+    width: 500px;
+    margin: auto;
 
 }
 
 img {
-
+    border: 5px solid #d88c00;
+    border-radius: 20px 20px 20px 20px;
     margin-top: 0px;
     margin-bottom: 25px;
     margin-left: 25px;
@@ -151,10 +145,6 @@ img {
 p {
 
     font-size: 20px;
-    float: left;
-    margin-top: -190px;
-    margin-left: 250px;
-    margin-right: 140px;
     text-align: center;
     color: #161616;
     height: 80%;
@@ -203,7 +193,7 @@ footer {
     border: 5px solid #d88c00;
     float: left;
     text-align: center;
-    background: linear-gradient(yellow, orange);
+    background: linear-gradient(orange, yellow);
     color: #777;
     height: 60px;
     width: 100%;
